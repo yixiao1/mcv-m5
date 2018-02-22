@@ -1,0 +1,15 @@
+
+# This file is the summary for two papers about two kinds of network architectures
+
+------------------------------------------------------------------------------------
+
+## VGG networs: <VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION>
+VGG is a networks architecture that takes advantage of deeper networks and smaller filters to achieve better performance than CNNs. The main contribution of this paper consists in coming up with significantly more accurate Convolutional Net architectures and evaluating how this achieve with increasing depth in CNNs and using smaller filters. 
+
+The evaluation consists in using deep architectures (from 11 layers to 19) which alternate stacks of convolutional layers with small filters 3×3 and max pooling layers 2×2. The smaller networks A converged and were used as initializations for the larger, deeper networks — this process is called pre-training. With this VGG framework, they achieved state-of-the-art results on ILSVRC classification and also achieve excellent performance on other image recognition datasets, even when used as a part of a relatively simple pipelines.
+
+The focal points of this paper can be concluded below:
+1.	Processing the input image using a stack of convolutional layers with very small filters. Before this, it was more conventional to set large receptive fields (11×11, 9×9, 7×7…) to the first convolutional layers, whereas this paper is dedicated to clarify that the size of the effective receptive field of a N convolutional layers stack with 3×3 filters is equal to convolutional layers with one (2N+1) x (2N+ 1) filter. For instance, a stack of three convolutional layers with 3×3 filters has a 7×7 receptive field with respect to the input image. Instead of adding only one non-linearity, as it is the case when using a single 7×7 convolutional layer, more non-linearities are introduced. Therefore, the learnt decision function can be more discriminative. Moreover, for a fixed receptive field, stacking convolutional layers permits to decrease the number of parameters. Therefore, stacking three convolutional layers with 3×3 filters can be seen as a regularisation on the 7×7 convolutional filters, forcing them to have a 3×3 decomposition.
+2.	In spite of the larger number of parameters and the greater depth of the architectures, the nets required less epochs to converge due to: the implicit regularisation imposed by greater depth and smaller convolutional filter sizes, and pre-initialisation of certain layers.
+3.	Training images augmentation. They considered and compared two approaches for setting the training scale to further augment the training set: two fixed scales and multi-scale from a certain range.
+
