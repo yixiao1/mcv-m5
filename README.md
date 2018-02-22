@@ -11,4 +11,4 @@ Yi Xiao(yi.xiao@e-campus.uab.cat)
 In this 5-week project it will be developed a DL-based system to recognise objects, obtain their bounding box and segmentation related to the field of ADAS.
 
 ## Overleaf article
-link: 
+link: https://www.overleaf.com/read/gywnfybyhcxj 
