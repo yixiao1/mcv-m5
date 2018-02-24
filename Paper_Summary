@@ -3,7 +3,8 @@
 
 --------------------------------------------------------------------------------------------------------------------
 
-## VGG networs: <VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION>
+## VGG networs: 
+<VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION>
 VGG is a networks architecture that takes advantage of deeper networks and smaller filters to achieve 
 better performance than CNNs. The main contribution of this paper consists in coming up with significantly 
 more accurate Convolutional Net architectures and evaluating how this achieve with increasing depth in CNNs 
@@ -34,8 +35,9 @@ further augment the training set: two fixed scales and multi-scale from a certai
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-## SqueezeNet: SQUEEZENET: ALEXNET-LEVEL ACCURACY WITH 50X FEWER PARAMETERS AND <0.5MB MODEL SIZE
+## SqueezeNet: 
 
+<SQUEEZENET: ALEXNET-LEVEL ACCURACY WITH 50X FEWER PARAMETERS AND <0.5MB MODEL SIZE>
 SqueezeNet is a small architecture which can achieve AlexNet-level accuracy but with 50x fewer parameters, 
 and also be compressed to less than 0.5MB. It takes advantage of a fewer number of parameters, which helps 
 it to have a more efficient distribution training, have less overhead when exporting new models to clients 
