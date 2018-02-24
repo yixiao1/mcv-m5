@@ -1,8 +1,8 @@
 # Scene Understanding for Autonomous Vehicles
 Master in Computer Vision - M5 Visual recognition
 
-## Group
-TEAM 06  
+## Group 06
+Group 06  
 Juan Felipe Montesinos(jfmontgar@gmail.com)  
 Ferran Carrasquer(ferrancarrasquer@gmail.com)  
 Yi Xiao(yi.xiao@e-campus.uab.cat)  
