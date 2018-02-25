@@ -2,7 +2,7 @@
 Master in Computer Vision - M5 Visual recognition
 
 ## Group 06
-Name: Group 06 (Tricky Team)
+Name: Group 06 (Tricky Team)  
 Juan Felipe Montesinos(jfmontgar@gmail.com)  
 Ferran Carrasquer(ferrancarrasquer@gmail.com)  
 Yi Xiao(yi.xiao@e-campus.uab.cat)  
