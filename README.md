@@ -17,5 +17,5 @@ In this 5-week project it will be developed as a Deep Learning based system to r
 ## Week 1: summary of two papers about VGG and SqueezeNet
 (check the file named Paper_Summary)
 
-## Object Recognition
+## Week 2: Object Recognition
 1. the weights of the model can be checked [here]()
