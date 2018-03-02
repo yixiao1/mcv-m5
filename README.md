@@ -11,7 +11,7 @@ Yi Xiao(yi.xiao@e-campus.uab.cat)
 In this 5-week project it will be developed a DL-based system to recognise objects, obtain their bounding box and segmentation related to the field of ADAS.
 
 ## Overleaf article
-Here is the link of our report: https://www.overleaf.com/read/gywnfybyhcxj 
+Here is the link of our report: https://www.overleaf.com/14199148kdktqnyfcdxs
 
 ## Week 1: summary of two papers about VGG and SqueezeNet
 (check the file named Paper_Summary)
