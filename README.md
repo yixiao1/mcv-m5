@@ -10,8 +10,12 @@ Yi Xiao(yi.xiao@e-campus.uab.cat)
 ## Abstract   
 In this 5-week project it will be developed as a Deep Learning based system to recognise objects, obtain their bounding box and segmentation related to the field of ADAS for designing and implementig deep neural networks for scene understanding for autonomous vehicles.
 
-## Overleaf article
-Here is the link of our report: https://www.overleaf.com/14201045nbngtjzxgtrc#/54851966/
+## Report
+1. A detailed report about the work done can be found [here](https://www.overleaf.com/14201045nbngtjzxgtrc#/54851966/)
+2. a Google Slides presentation can be found [here]()
 
 ## Week 1: summary of two papers about VGG and SqueezeNet
 (check the file named Paper_Summary)
+
+## Object Recognition
+1. the weights of the model can be checked [here]()
