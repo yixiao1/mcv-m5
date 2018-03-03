@@ -17,12 +17,6 @@ In this 5-week project it will be developed as a Deep Learning based system to r
 ## Week 1: summary of two papers about VGG and SqueezeNet
 1. paper reading: check the file named Paper_Summary
 
-Short explanation of the code in the repository
-Results of the different experiments
-Instructions for using the code
-Indicate the level of completeness of the goals of this week
-
-
 ## Week 2: Object Recognition
 1. the weights of the model can be checked [here]()  
 
@@ -34,8 +28,7 @@ python train.py -c config/dataset.py -e expName
 ```
 where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
 
-3. Completeness of task  
-For the object recognition we implement several architectures, training them from scratch as well as fine-tuning using pretrained weights. We also boost the performance of the networks using different pre-processing techniques, and performing data augmentation and hyperparameter optimization.  
+3. Completeness of task   
 Below is the check list of our completeness of task  
 - [x] (a) Run the provided code  
           - Analysis the dataset  
