@@ -18,9 +18,10 @@ In this 5-week project it will be developed as a Deep Learning based system to r
 1. paper reading: check the file named Paper_Summary
 
 ## Week 2: Object Recognition
-###1. the weights of the model can be checked [here]()  
+### wights  
+the weights of the model can be checked [here]()  
 
-###2. Code and usage  
+### Code and usage  
 All the experiment configuration files are put into code/config foder. There is a file inside code folder named train.py.  
 To run the code, you need to fix the paths for datasets in train.py for working on your machine, and then write the commond:
 ```
@@ -28,7 +29,7 @@ python train.py -c config/dataset.py -e expName
 ```
 where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
 
-###3. Completeness of task   
+### Completeness of task   
 Below is the check list of our completeness of task  
 - [x] (a) Run the provided code  
           - Analysis the dataset  
