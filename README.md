@@ -23,14 +23,14 @@ In this 5-week project it will be developed as a Deep Learning based system to r
 the weights of the model can be checked [here]()  
 
 ### Code and usage  
-All the experiment configuration files are put into code/config foder. There is a file inside code folder named train.py.  
-To run the code, you need to fix the paths for datasets in train.py for working on your machine, and then write the commond:
+All the experiment configuration files are put into code/config foder. There is a file inside code folder named train.py  to run the code.  
+You need to fix the paths for datasets in train.py for working on your machine, and then write the commond:
 ```
 python train.py -c config/dataset.py -e expName
 ```
 where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
 
-### Completeness of task   
+### Completeness of tasks
 Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/read/bcqybcqytyvj)  
 - [x] (a) Run the provided code  
           - Analysis the dataset  
@@ -38,8 +38,11 @@ Below is the check list of our completeness of task. All the results of the task
           - Evaluate different techniques in the configuration file such as: crop vs. resize; normalization; bagging  
           - Transfer learning to Belgium traffic signs dataset (both transfer and from scratch)  
           - Understand the code  
-- [x] (b) Train the network on a different dataset(KITTI)  
-          - we trained from scratch (or fine-tuning)? T.B.D  
-
-
+- [x] (b) Train the VGG16 network on a different dataset(KITTI)  
+          - we trained from both scratch and fine-tuning  
+- [x] (c) Implete a new network     
+          -(c.1) we impleted ResNet network on TT100K datasets  
+- [x] (d) Boost the performance of the network  
+          - T.B.D
+- [x] (e) Report
 
