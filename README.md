@@ -34,15 +34,15 @@ To run the code, you need to fix the paths for datasets in train.py for working 
 For the object recognition we implement several architectures, training them from scratch as well as fine-tuning using pretrained weights. We also boost the performance of the networks using different pre-processing techniques, and performing data augmentation and hyperparameter optimization.  
 Below is the check list of our completeness of task  
  - [x] (a) Run the provided code  
-            - Analysis the dataset  
-            - Accuracy of train and test set  
-            - Evaluate different techniques in the configuration file    
+            - [x] Analysis the dataset  
+            - [x] Accuracy of train and test set  
+            - [x] Evaluate different techniques in the configuration file    
                 i. crop vs. resize;  
                 ii. other pre-processings  
-            - Transfer learning to Belgium traffic signs dataset   
-            - Understand the code  
+            - [x] Transfer learning to Belgium traffic signs dataset   
+            - [x] Understand the code  
  - [x] (b) Train the network on a different dataset(KITTI)  
-            - we trained from scratch (or fine-tuning)? T.B.D  
+            - [x] we trained from scratch (or fine-tuning)? T.B.D  
 
 
 
