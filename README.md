@@ -31,13 +31,11 @@ python train.py -c config/dataset.py -e expName
 where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
 
 ### Completeness of task   
-Below is the check list of our completeness of task  
+Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/read/bcqybcqytyvj)  
 - [x] (a) Run the provided code  
           - Analysis the dataset  
           - Accuracy of train and test set  
-          - Evaluate different techniques in the configuration file    
-                 i. crop vs. resize;  
-                 ii. other pre-processings  
+          - Evaluate different techniques in the configuration file such as: crop vs. resize; normalization; bagging  
           - Transfer learning to Belgium traffic signs dataset   
           - Understand the code  
 - [x] (b) Train the network on a different dataset(KITTI)  
