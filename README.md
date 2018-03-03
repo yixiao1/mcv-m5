@@ -36,7 +36,7 @@ Below is the check list of our completeness of task. All the results of the task
           - Analysis the dataset  
           - Accuracy of train and test set  
           - Evaluate different techniques in the configuration file such as: crop vs. resize; normalization; bagging  
-          - Transfer learning to Belgium traffic signs dataset   
+          - Transfer learning to Belgium traffic signs dataset (both transfer and from scratch)  
           - Understand the code  
 - [x] (b) Train the network on a different dataset(KITTI)  
           - we trained from scratch (or fine-tuning)? T.B.D  
