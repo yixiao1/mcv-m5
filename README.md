@@ -41,7 +41,7 @@ Below is the check list of our completeness of task. All the results of the task
 - [x] (b) Train the VGG16 network on a different dataset(KITTI)  
           - Trained from scratch 
 - [x] (c) Implete a new network     
-          -(c.1) we impleted ResNet network on TT100K and KITTI datasets 
+          - (c.1) we impleted ResNet network on TT100K and KITTI datasets 
 - [x] (d) Boost the performance of the network  
           - Changing learning rate and data augmentation
 - [x] (e) Report
