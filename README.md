@@ -20,7 +20,7 @@ In this 5-week project it will be developed as a Deep Learning based system to r
    
 ## Week 2: Object Recognition
 ### wights  
-the weights of the model can be checked [here]()  
+the weights of the model can be checked [here](https://drive.google.com/drive/folders/1xRXmhrm1Ng86Y3ANa_N83xyltfwZU_IP?usp=sharing)  
 
 ### Code and usage  
 All the experiment configuration files are put into code/config foder. There is a file inside code folder named train.py  to run the code.  
