@@ -36,7 +36,7 @@ Below is the check list of our completeness of task. All the results of the task
           - Analysis the dataset  
           - Accuracy of train and test set  
           - Evaluate different techniques in the configuration file such as: crop vs. resize; division std normalization; ImageNet normalization
-          - Transfer learning to Belgium traffic signs dataset (both transfer and from scratch)  
+          - Transfer learning to Belgium traffic signs dataset 
           - Understand the code  
 - [x] (b) Train the VGG16 network on a different dataset(KITTI)  
           - Trained from scratch 
