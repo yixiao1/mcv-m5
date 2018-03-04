@@ -35,7 +35,7 @@ Below is the check list of our completeness of task. All the results of the task
 - [x] (a) Run the provided code  
           - Analysis the dataset  
           - Accuracy of train and test set  
-          - Evaluate different techniques in the configuration file such as: crop vs. resize; normalization; bagging  
+          - Evaluate different techniques in the configuration file such as: crop vs. resize; division std normalization; ImageNet normalization
           - Transfer learning to Belgium traffic signs dataset (both transfer and from scratch)  
           - Understand the code  
 - [x] (b) Train the VGG16 network on a different dataset(KITTI)  
@@ -43,6 +43,6 @@ Below is the check list of our completeness of task. All the results of the task
 - [x] (c) Implete a new network     
           -(c.1) we impleted ResNet network on TT100K and KITTI datasets 
 - [x] (d) Boost the performance of the network  
-          - Bagging and Data Augmentation
+          - Changing learning rate and data augmentation
 - [x] (e) Report
 
