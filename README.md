@@ -39,10 +39,10 @@ Below is the check list of our completeness of task. All the results of the task
           - Transfer learning to Belgium traffic signs dataset (both transfer and from scratch)  
           - Understand the code  
 - [x] (b) Train the VGG16 network on a different dataset(KITTI)  
-          - we trained from both scratch and fine-tuning  
+          - Trained from scratch 
 - [x] (c) Implete a new network     
-          -(c.1) we impleted ResNet network on TT100K datasets  
+          -(c.1) we impleted ResNet network on TT100K and KITTI datasets 
 - [x] (d) Boost the performance of the network  
-          - T.B.D
+          - Bagging and Data Augmentation
 - [x] (e) Report
 
