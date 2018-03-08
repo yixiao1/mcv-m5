@@ -13,24 +13,24 @@ load_pretrained              = False           # Load a pretrained model for doi
 weights_file                 = 'weights.hdf5'  # Training weight file name
 
 # Parameters
-train_model                  = True            # Train the model
-test_model                   = False           # Test the model
+train_model                  = True           # Train the model
+test_model                   = True          # Test the model
 pred_model                   = False           # Predict using the model
 
 # Debug
-debug                        = False           # Use only few images for debuging
+debug                        = False          # Use only few images for debuging
 debug_images_train           = 50              # N images for training in debug mode (-1 means all)
 debug_images_valid           = 50              # N images for validation in debug mode (-1 means all)
 debug_images_test            = 50              # N images for testing in debug mode (-1 means all)
 debug_n_epochs               = 2               # N of training epochs in debug mode
 
 # Batch sizes
-batch_size_train             = 8              # Batch size during training
+batch_size_train             = 10              # Batch size during training
 batch_size_valid             = 30              # Batch size during validation
 batch_size_test              = 30              # Batch size during testing
-crop_size_train              = None            # Crop size during training (Height, Width) or None
-crop_size_valid              = None            # Crop size during validation
-crop_size_test               = None            # Crop size during testing
+crop_size_train              = None           # Crop size during training (Height, Width) or None
+crop_size_valid              = None           # Crop size during validation
+crop_size_test               = None           # Crop size during testing
 resize_train                 = (224, 224)      # Resize the image during training (Height, Width) or None
 resize_valid                 = (224, 224)      # Resize the image during validation
 resize_test                  = (224, 224)      # Resize the image during testing

@@ -6,9 +6,9 @@ perc_mb2                     = None            # Percentage of data from the sec
 
 # Model
 model_name                   = 'resnet50'          # Model to use ['fcn8' | 'lenet' | 'alexNet' | 'vgg16' |  'vgg19' | 'resnet50' | 'InceptionV3']
-freeze_layers_from           = None            # Freeze layers from 0 to this layer during training (Useful for finetunning) [None | 'base_model' | Layer_id]
+freeze_layers_from           = 'base_model'            # Freeze layers from 0 to this layer during training (Useful for finetunning) [None | 'base_model' | Layer_id]
 show_model                   = False           # Show the architecture layers
-load_imageNet                = False           # Load Imagenet weights and normalize following imagenet procedure
+load_imageNet                = True           # Load Imagenet weights and normalize following imagenet procedure
 load_pretrained              = False           # Load a pretrained model for doing finetuning
 weights_file                 = 'weights.hdf5'  # Training weight file name
 
@@ -19,10 +19,10 @@ pred_model                   = False           # Predict using the model
 
 # Debug
 debug                        = False          # Use only few images for debuging
-debug_images_train           = 50              # N images for training in debug mode (-1 means all)
-debug_images_valid           = 50              # N images for validation in debug mode (-1 means all)
-debug_images_test            = 50              # N images for testing in debug mode (-1 means all)
-debug_n_epochs               = 2               # N of training epochs in debug mode
+debug_images_train           = 500              # N images for training in debug mode (-1 means all)
+debug_images_valid           = 300              # N images for validation in debug mode (-1 means all)
+debug_images_test            = 300              # N images for testing in debug mode (-1 means all)
+debug_n_epochs               = 40              # N of training epochs in debug mode
 
 # Batch sizes
 batch_size_train             = 8              # Batch size during training
@@ -45,9 +45,9 @@ seed_test                    = 1924            # Random seed for the testing shu
 
 # Training parameters
 optimizer                    = 'rmsprop'       # Optimizer
-learning_rate                = 0.0001          # Training learning rate
+learning_rate                = 0.001          # Training learning rate
 weight_decay                 = 0.              # Weight decay or L2 parameter norm penalty
-n_epochs                     = 40              # Number of epochs during training
+n_epochs                     = 30              # Number of epochs during training
 
 # Callback save results
 save_results_enabled         = False           # Enable the Callback
@@ -96,8 +96,8 @@ TensorBoard_write_images     = False            # Whether to write model weights
 TensorBoard_logs_folder      = None             #
 
 # Data augmentation for training and normalization
-norm_imageNet_preprocess           = False     # Normalize following imagenet procedure
-norm_fit_dataset                   = True      # If True it recompute std and mean from images. Either it uses the std and mean set at the dataset config file
+norm_imageNet_preprocess           = True     # Normalize following imagenet procedure
+norm_fit_dataset                   = False      # If True it recompute std and mean from images. Either it uses the std and mean set at the dataset config file
 norm_rescale                       = 1/255.    # Scalar to divide and set range 0-1
 norm_featurewise_center            = False     # Substract mean - dataset
 norm_featurewise_std_normalization = False     # Divide std - dataset
@@ -116,7 +116,7 @@ da_zoom_range                      = 0.0        # Zoom
 da_channel_shift_range             = 0.         # Channecf.l shifts
 da_fill_mode                       = 'constant' # Fill mode
 da_cval                            = 0.         # Void image value
-da_horizontal_flip                 = False      # Rnd horizontal flip
+da_horizontal_flip                 = True      # Rnd horizontal flip
 da_vertical_flip                   = False      # Rnd vertical flip
 da_spline_warp                     = False      # Enable elastic deformation
 da_warp_sigma                      = 10         # Elastic deformation sigma

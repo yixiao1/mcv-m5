@@ -10,7 +10,7 @@ freeze_layers_from           = 'base_model'           # Freeze layers from 0 to 
 show_model                   = False           # Show the architecture layers
 load_imageNet                = False           # Load Imagenet weights and normalize following imagenet procedure
 load_pretrained              = True           # Load a pretrained model for doing finetuning
-weights_file                 = '/home/master/master/Experiments/TT100K_trafficSigns/VGG16_trainModel/weights.hdf5'  # Training weight file name
+weights_file                 = '/home/master/master/Experiments/TT100K_trafficSigns/VGG16_normalization/weights.hdf5'  # Training weight file name
 
 # Parameters
 train_model                  = True           # Train the model
@@ -25,7 +25,7 @@ debug_images_test            = 50              # N images for testing in debug m
 debug_n_epochs               = 2               # N of training epochs in debug mode
 
 # Batch sizes
-batch_size_train             = 10              # Batch size during training
+batch_size_train             = 8              # Batch size during training
 batch_size_valid             = 30              # Batch size during validation
 batch_size_test              = 30              # Batch size during testing
 crop_size_train              = None           # Crop size during training (Height, Width) or None
@@ -97,7 +97,7 @@ TensorBoard_logs_folder      = None             #
 
 # Data augmentation for training and normalization
 norm_imageNet_preprocess           = False     # Normalize following imagenet procedure
-norm_fit_dataset                   = True      # If True it recompute std and mean from images. Either it uses the std and mean set at the dataset config file
+norm_fit_dataset                   = False      # If True it recompute std and mean from images. Either it uses the std and mean set at the dataset config file
 norm_rescale                       = 1/255.    # Scalar to divide and set range 0-1
 norm_featurewise_center            = False     # Substract mean - dataset
 norm_featurewise_std_normalization = False     # Divide std - dataset

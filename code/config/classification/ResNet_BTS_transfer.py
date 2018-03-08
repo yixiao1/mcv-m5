@@ -1,6 +1,6 @@
 # Dataset
 problem_type                 = 'classification'# ['classification' | 'detection' | 'segmentation']
-dataset_name                 = 'TT100K_trafficSigns'# Dataset name
+dataset_name                 = 'KITTI'# Dataset name
 dataset_name2                = None            # Second dataset name. None if not Domain Adaptation
 perc_mb2                     = None            # Percentage of data from the second dataset in each minibatch
 
@@ -10,11 +10,11 @@ freeze_layers_from           = None            # Freeze layers from 0 to this la
 show_model                   = False           # Show the architecture layers
 load_imageNet                = False           # Load Imagenet weights and normalize following imagenet procedure
 load_pretrained              = False           # Load a pretrained model for doing finetuning
-weights_file                 = 'weights.hdf5'  # Training weight file name
+weights_file                 = '/home/master/master/Experiments/TT100K_trafficSigns/ResNet_fromScratch/weights.hdf5'  # Training weight file name
 
 # Parameters
 train_model                  = True           # Train the model
-test_model                   = True          # Test the model
+test_model                   = False         # Test the model
 pred_model                   = False           # Predict using the model
 
 # Debug
