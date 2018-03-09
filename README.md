@@ -51,7 +51,7 @@ Below is the check list of our completeness of task. All the results of the task
 
 ## Week 3: Object Detection
 ### wights  
-the weights of the model can be checked [here](https://drive.google.com/drive/folders/1xRXmhrm1Ng86Y3ANa_N83xyltfwZU_IP?usp=sharing)  
+the weights of the model can be checked [here](https://drive.google.com/drive/folders/1Aw_FuOW_3VCYB5EoUSkCgMnOJGOtmCvN)  
 
 ### Code and usage  
 All the experiment configuration files are put into code/config foder. There is a file inside code folder named train.py  to run the code.  
