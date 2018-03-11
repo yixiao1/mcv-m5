@@ -12,7 +12,7 @@ In this 5-week project it will be developed as a Deep Learning based system to r
 
 
 ## Report & Slides
-1. A detailed report about the work done can be found [here](https://www.overleaf.com/read/bcqybcqytyvj)
+1. A detailed report about the work done can be found [here](https://www.overleaf.com/14201045nbngtjzxgtrc#/54851966/)
 2. A Google Slides presentation can be found [here](https://docs.google.com/presentation/d/1o2RH6WHfbfyuQad9ZDE3kQ5-N749o_uBFhq0lSWSTsE/edit?usp=sharing)
 
 
