@@ -67,13 +67,14 @@ Below is the check list of our completeness of task. All the results of the task
           - Analysis the dataset  
           - Calculate the f-score and FPS on train, val and test sets.
 - [x] (b) Read two papers   
-          - You Only Look at Once (YOLO)
-          - T.B.D
+          - You Only Look at Once (YOLO)  
+          - Single Shot MultiBox Detector (SSD)  
 - [x] (c) Implement a new network     
-          - T.B.D
+          - T.B.D  
 - [x] (d) Train the networks on a different dataset  
-          - T.B.D
+          - Udacity
 - [x] (e) Boost the performance of our network
-          - T.B.D
-- [x] (f) Repot
+          - data augmentation (both tt100k and udacity dataset)  
+          - learning rate (both tt100k and udacity dataset)    
+- [x] (f) Report
 

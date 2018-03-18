@@ -242,4 +242,4 @@ class One_Net_Model(Model):
                                                                      jacc_percl[i]*100))
                 # Compute jaccard mean
                 jacc_mean = np.nanmean(jacc_percl)
-print ('   Jaccard mean: {}'.format(jacc_mean))
+                print ('   Jaccard mean: {}'.format(jacc_mean))
