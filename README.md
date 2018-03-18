@@ -12,7 +12,7 @@ In this 5-week project it will be developed as a Deep Learning based system to r
 
 
 ## Report & Slides
-1. A detailed report about the work done can be found [here](https://www.overleaf.com/14201045nbngtjzxgtrc#/54851966/)
+1. A detailed report about the work done can be found [here](https://www.overleaf.com/read/bcqybcqytyvj)
 2. A Google Slides presentation can be found [here](https://docs.google.com/presentation/d/1o2RH6WHfbfyuQad9ZDE3kQ5-N749o_uBFhq0lSWSTsE/edit?usp=sharing)
 
 
@@ -70,10 +70,10 @@ Below is the check list of our completeness of task. All the results of the task
           - You Only Look at Once (YOLO)  
           - Single Shot MultiBox Detector (SSD)  
 - [x] (c) Implement a new network     
-          - T.B.D  
+          - T.B.D   
 - [x] (d) Train the networks on a different dataset  
-          - Udacity
-- [x] (e) Boost the performance of our network
+          - Udacity  
+- [x] (e) Boost the performance of our network  
           - data augmentation (both tt100k and udacity dataset)  
           - learning rate (both tt100k and udacity dataset)    
 - [x] (f) Report
