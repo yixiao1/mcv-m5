@@ -69,7 +69,7 @@ Below is the check list of our completeness of task. All the results of the task
 - [x] (b) Read two papers   
           - You Only Look at Once (YOLO)  
           - Single Shot MultiBox Detector (SSD)  
-- [x] (c) Implement a new network     
+- [ ] (c) Implement a new network     
           - T.B.D   
 - [x] (d) Train the networks on a different dataset  
           - Udacity  
