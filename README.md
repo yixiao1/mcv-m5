@@ -70,7 +70,7 @@ Below is the check list of our completeness of task. All the results of the task
           - You Only Look at Once (YOLO)  
           - Single Shot MultiBox Detector (SSD)  
 - [x] (c) Implement a new network           
-          - Implement our own network: training and testing on both tt100k and udacity    
+          - (c.2) Implement our own network: training and testing on both tt100k and udacity    
 - [x] (d) Train the networks on a different dataset  
           - Udacity  
 - [x] (e) Boost the performance of our network  
