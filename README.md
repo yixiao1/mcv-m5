@@ -12,7 +12,7 @@ In this 5-week project it will be developed as a Deep Learning based system to r
 
 
 ## Report & Slides
-1. A detailed report about the work done can be found [here](https://www.overleaf.com/read/bcqybcqytyvj)
+1. A detailed report about the work done can be found [here](https://www.overleaf.com/14201045nbngtjzxgtrc)
 2. A Google Slides presentation can be found [here](https://docs.google.com/presentation/d/1o2RH6WHfbfyuQad9ZDE3kQ5-N749o_uBFhq0lSWSTsE/edit?usp=sharing)
 
 
@@ -33,7 +33,7 @@ python train.py -c config/dataset.py -e expName
 where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
 
 ### Completeness of tasks
-Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/read/bcqybcqytyvj)  
+Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/14201045nbngtjzxgtrc)  
 - [x] (a) Run the provided code  
           - Analysis the dataset  
           - Accuracy of train and test set  
@@ -62,19 +62,19 @@ python train.py -c config/dataset.py -e expName
 where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
 
 ### Completeness of tasks
-Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/read/bcqybcqytyvj)  
+Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/14201045nbngtjzxgtrc)  
 - [x] (a) Run the provided code  
           - Analysis the dataset  
           - Calculate the f-score and FPS on train, val and test sets.
 - [x] (b) Read two papers   
           - You Only Look at Once (YOLO)  
           - Single Shot MultiBox Detector (SSD)  
-- [ ] (c) Implement a new network     
-          - T.B.D   
+- [x] (c) Implement a new network           
+          - Implement our own network: training and testing on both tt100k and udacity    
 - [x] (d) Train the networks on a different dataset  
           - Udacity  
 - [x] (e) Boost the performance of our network  
           - data augmentation (both tt100k and udacity dataset)  
           - learning rate (both tt100k and udacity dataset)    
-- [x] (f) Report
+- [x] (f) Report  
 
