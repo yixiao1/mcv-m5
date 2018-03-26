@@ -48,7 +48,7 @@ Below is the check list of our completeness of task. All the results of the task
 - [x] (e) Report
 
 
-## Week 3: Object Detection
+## Week 3/4: Object Detection
 ### wights  
 the weights of the model can be checked [here](https://drive.google.com/drive/folders/1Aw_FuOW_3VCYB5EoUSkCgMnOJGOtmCvN)  
 
@@ -76,4 +76,36 @@ Below is the check list of our completeness of task. All the results of the task
           - data augmentation (both tt100k and udacity dataset)  
           - learning rate (both tt100k and udacity dataset)    
 - [x] (f) Report  
+
+
+## Week 5/6: Image Semantic Segmentation  
+### wights  
+the weights of the model can be checked [here](https://drive.google.com/drive/folders/1honFLzx-pXc6eClIu2-kfTtvX_82nUcC)  
+
+### Code and usage  
+All the experiment configuration files are put into code/config foder. There is a file inside code folder named train.py  to run the code.  
+You need to fix the paths for datasets in train.py for working on your machine, and then write the commond:
+```
+python train.py -c config/dataset.py -e expName
+```
+where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
+
+### Completeness of tasks
+Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/14201045nbngtjzxgtrc)  
+- [x] (a) Run the provided code  
+          - Analysis the dataset  
+          - Calculate the f-score and FPS on train, val and test sets.
+- [x] (b) Read two papers   
+          - Fully convolutional networks for semantic segmentation    
+          - T.B.D     
+- [x] (c) Implement a new network      
+          - T.B.D       
+- [x] (d) Train the networks on a different dataset  
+          - KITTI
+          - Cityscapes  
+- [x] (e) Boost the performance of our network  
+          - T.B.D    
+          - T.B.D       
+- [x] (f) Report  
+
 
