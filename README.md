@@ -27,9 +27,10 @@ the weights of the model can be checked [here](https://drive.google.com/drive/fo
 All the experiment configuration files are put into code/config foder. There is a file inside code folder named train.py  to run the code.  
 You need to fix the paths for datasets in train.py for working on your machine, and then write the commond:
 ```
-python train.py -c config/dataset.py -e expName
+CUDA_VISIBLE_DEVICES=0 python train.py -c config/file.py -e experimentFolder -l resultsFolder -s datasetsFolder
+
 ```
-where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
+where file.py is the configuration file for this test, and expName is the name of the directory where the results to be saved. resultsFolder is the path to save experiment, and datasetsFolder is the path of datasets.  
 
 ### Completeness of tasks
 Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/14201045nbngtjzxgtrc)  
@@ -56,9 +57,10 @@ the weights of the model can be checked [here](https://drive.google.com/drive/fo
 All the experiment configuration files are put into code/config foder. There is a file inside code folder named train.py  to run the code.  
 You need to fix the paths for datasets in train.py for working on your machine, and then write the commond:
 ```
-python train.py -c config/dataset.py -e expName
+CUDA_VISIBLE_DEVICES=0 python train.py -c config/file.py -e experimentFolder -l resultsFolder -s datasetsFolder
+
 ```
-where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
+where file.py is the configuration file for this test, and expName is the name of the directory where the results to be saved. resultsFolder is the path to save experiment, and datasetsFolder is the path of datasets.  
 
 ### Completeness of tasks
 Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/14201045nbngtjzxgtrc)  
@@ -86,9 +88,10 @@ the weights of the model can be checked [here](https://drive.google.com/drive/fo
 All the experiment configuration files are put into code/config foder. There is a file inside code folder named train.py  to run the code.  
 You need to fix the paths for datasets in train.py for working on your machine, and then write the commond:
 ```
-python train.py -c config/dataset.py -e expName
+CUDA_VISIBLE_DEVICES=0 python train.py -c config/file.py -e experimentFolder -l resultsFolder -s datasetsFolder
+
 ```
-where dataset.py is the configuration file for this test, and expName is the name of the directory where the results to be saved.
+where file.py is the configuration file for this test, and expName is the name of the directory where the results to be saved. resultsFolder is the path to save experiment, and datasetsFolder is the path of datasets.  
 
 ### Completeness of tasks
 Below is the check list of our completeness of task. All the results of the tasks are shown in the [report](https://www.overleaf.com/14201045nbngtjzxgtrc)  
