@@ -101,14 +101,14 @@ Below is the check list of our completeness of task. All the results of the task
 - [x] (b) Read two papers   
           - Fully convolutional networks for semantic segmentation    
           - T.B.D     
-- [x] (c) Implement a new network      
+- [ ] (c) Implement a new network      
           - T.B.D       
 - [x] (d) Train the networks on a different dataset  
           - KITTI   
           - Cityscapes  
 - [x] (e) Boost the performance of our network  
-          - T.B.D    
-          - T.B.D       
+          - Data Augmentation      
+          - Feature Normalization         
 - [x] (f) Report  
 
 
