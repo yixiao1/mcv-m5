@@ -100,12 +100,13 @@ Below is the check list of our completeness of task. All the results of the task
           - Calculate the f-score and FPS on train, val and test sets.
 - [x] (b) Read two papers   
           - Fully convolutional networks for semantic segmentation    
-          - T.B.D     
-- [ ] (c) Implement a new network      
-          - T.B.D       
+          - Segnet      
+- [x] (c) Implement a new network      
+          - Segnet          
 - [x] (d) Train the networks on a different dataset  
           - KITTI   
-          - Cityscapes  
+          - Cityscapes
+          - Pascal2012     
 - [x] (e) Boost the performance of our network  
           - Data Augmentation      
           - Feature Normalization         
