@@ -6,17 +6,14 @@ from keras import backend as K
 from keras.utils.vis_utils import plot_model
 
 # Classification models
-#from models.lenet import build_lenet
-#from models.alexNet import build_alexNet
 from models.vgg import build_vgg
-#from models.resnet import build_resnet50
-#from models.inceptionV3 import build_inceptionV3
 
 # Detection models
 from models.yolo import build_yolo
 
 # Segmentation models
 from models.fcn8 import build_fcn8
+from models.segnet import build_segnet
 
 # Adversarial models
 #from models.adversarial_semseg import Adversarial_Semseg
@@ -48,8 +45,13 @@ class Model_Factory():
                         cf.target_size_train[0],
                         cf.target_size_train[1])
             # TODO detection : check model, different detection nets may have different losses and metrics
-            loss = YOLOLoss(in_shape, cf.dataset.n_classes, cf.dataset.priors)
-            metrics = [YOLOMetrics(in_shape, cf.dataset.n_classes, cf.dataset.priors,name='avg_recall'),YOLOMetrics(in_shape, cf.dataset.n_classes, cf.dataset.priors,name='avg_iou')]
+            if cf.model_name == 'retinanet':
+                loss = YOLOLoss(in_shape, cf.dataset.n_classes, cf.dataset.priors)
+                metrics = [YOLOMetrics(in_shape, cf.dataset.n_classes, cf.dataset.priors, name='avg_recall'),
+                           YOLOMetrics(in_shape, cf.dataset.n_classes, cf.dataset.priors, name='avg_iou')]
+            else:
+                loss = YOLOLoss(in_shape, cf.dataset.n_classes, cf.dataset.priors)
+                metrics = [YOLOMetrics(in_shape, cf.dataset.n_classes, cf.dataset.priors,name='avg_recall'),YOLOMetrics(in_shape, cf.dataset.n_classes, cf.dataset.priors,name='avg_iou')]
         elif cf.dataset.class_mode == 'segmentation':
             if K.image_dim_ordering() == 'th':
                 if variable_input_size:
@@ -76,7 +78,7 @@ class Model_Factory():
     # Creates a Model object (not a Keras model)
     def make(self, cf, optimizer=None):
         if cf.model_name in ['lenet', 'alexNet', 'vgg16', 'vgg19', 'resnet50',
-                             'InceptionV3', 'fcn8', 'unet', 'segnet',
+                             'InceptionV3', 'fcn8', 'unet', 'segnet_vgg',
                              'segnet_basic', 'resnetFCN', 'yolo', 'tiny-yolo']:
             if optimizer is None:
                 raise ValueError('optimizer can not be None')
@@ -142,6 +144,10 @@ class Model_Factory():
                               freeze_layers_from=cf.freeze_layers_from)
         elif cf.model_name == 'resnet50':
             model = build_resnet50(in_shape, cf.dataset.n_classes, cf.weight_decay,
+                                   load_pretrained=cf.load_imageNet,
+                                   freeze_layers_from=cf.freeze_layers_from)
+        elif cf.model_name == 'se_resnet50':
+            model = build_se_resnet50(in_shape, cf.dataset.n_classes, cf.weight_decay,
                                    load_pretrained=cf.load_imageNet,
                                    freeze_layers_from=cf.freeze_layers_from)
         elif cf.model_name == 'InceptionV3':
