@@ -47,9 +47,11 @@ Below is the check list of our completeness of task. All the results of the task
 - [x] (d) Boost the performance of the network  
           - Changing learning rate and data augmentation
 - [x] (e) Report
-
-### Results Summary
-+![](results/1.1.png)
+ 
+### Results Summary  
+![](results/1.1.png)  
+![](results/1.2.png)  
+![](results/1.3.png)  
 
 ## Week 3/4: Object Detection
 ### wights  
@@ -80,6 +82,11 @@ Below is the check list of our completeness of task. All the results of the task
           - data augmentation (both tt100k and udacity dataset)  
           - learning rate (both tt100k and udacity dataset)    
 - [x] (f) Report  
+
+### Results Summary  
+![](results/2.1.png)  
+![](results/2.2.png)  
+![](results/2.3.png)  
 
 
 ## Week 5/6: Image Semantic Segmentation  
@@ -114,4 +121,6 @@ Below is the check list of our completeness of task. All the results of the task
           - Feature Normalization         
 - [x] (f) Report  
 
+### Results Summary  
+![](results/3.1.png)  
 
