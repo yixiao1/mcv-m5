@@ -48,6 +48,8 @@ Below is the check list of our completeness of task. All the results of the task
           - Changing learning rate and data augmentation
 - [x] (e) Report
 
+### Results Summary
+![Optional Text](../results/1.1.png)
 
 ## Week 3/4: Object Detection
 ### wights  
